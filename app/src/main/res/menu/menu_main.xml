@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_settting"
+        android:title="@string/setting"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_note"
+        android:title="@string/buat_feedback"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_cuti"
+        android:title="@string/ajukan_cuti"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_map"
+        android:title="@string/lokasi"
+        app:showAsAction="never"/>
+
+    <item
+        android:id="@+id/action_logout"
+        android:title="@string/log_out"
+        app:showAsAction="never"/>
+</menu>

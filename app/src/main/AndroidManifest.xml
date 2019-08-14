@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.intent.pegawai">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher2"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher2"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.intent.pegawai.activity.MapsActivity"
+            android:label="@string/title_activity_maps"></activity>
+        <activity android:name="com.intent.pegawai.activity.SettingActivity" />
+        <activity android:name="com.intent.pegawai.activity.LoginActivity" />
+        <activity android:name="com.intent.pegawai.activity.RegisterActivity" />
+        <activity android:name="com.intent.pegawai.activity.MainActivity" />
+        <activity
+            android:name="com.intent.pegawai.activity.SplashScreenActivity"
+            android:theme="@style/AppThemeLogin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.intent.pegawai.activity.UtamaActivity" />
+        <activity android:name="com.intent.pegawai.activity.DetailActivity" />
+
+        <activity android:name=".feature.feedback.AddFeedback" />
+        <activity android:name=".feature.feedback.Feedback" />
+        <activity android:name=".feature.cuti.activity.AddEditActivity" />
+        <activity
+            android:name=".feature.cuti.activity.MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

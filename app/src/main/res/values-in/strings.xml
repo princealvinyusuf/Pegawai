@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Halal Foodie</string>
+    <string name="content_text">Lorem Ipsum</string>
+    <string name="halal_foodie">Halal Foodie</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="nama_lengkap">Nama Lengkap</string>
+    <string name="alamat">Alamat</string>
+    <string name="simpan">Simpan</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="logo_halal_foodie">Logo Halal Foodie</string>
+    <string name="log_out">Log Out</string>
+    <string name="resep_dibuat_oleh">Resep Dibuat Oleh:</string>
+    <string name="uyammy">Uyammy</string>
+    <string name="detail_masakan">Detail Masakan</string>
+    <string name="bahan_masakan">Bahan Masakan</string>
+    <string name="waktu_memasak">Waktu Memasak</string>
+    <string name="cara_membuat">Cara Membuat</string>
+    <string name="catat_resep">Catat Resep</string>
+    <string name="submit">Kirim</string>
+    <string name="description">Deskripsi</string>
+    <string name="title">Judul</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Tanggal</string>
+    <string name="share">Berbagi</string>
+    <string name="setting">Pengaturan</string>
+    <string name="_1_photos">1 Gambar</string>
+    <string name="source">Asal</string>
+    <string name="language">Bahasa</string>
+    <string name="change_localization">Ganti Bahasa</string>
+</resources>
